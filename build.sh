@@ -9,12 +9,11 @@ fi
 echo "Creating build directory"
 mkdir "build"
 
-# copy src-contents
+# copy files
 echo "Copy files to build directory"
 cp -R src/. build/
-
-# copy styles
 cp -R styles build/
+cp -R res build/
 
 # remove input.css file
 echo "Remove unused input.css"
