@@ -263,4 +263,6 @@ fabric.properties
 !.idea/codeStyles
 !.idea/runConfigurations
 
+build
+
 # End of https://www.toptal.com/developers/gitignore/api/node,webstorm
