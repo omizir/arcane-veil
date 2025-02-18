@@ -12,8 +12,6 @@ mkdir "build"
 # copy files
 echo "Copy files to build directory"
 cp -R src/. build/
-cp -R styles build/
-cp -R res build/
 
 # remove input.css file
 echo "Remove unused input.css"
