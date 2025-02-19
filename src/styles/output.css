@@ -518,17 +518,50 @@
   }
 }
 @layer utilities {
+  .absolute {
+    position: absolute;
+  }
+  .fixed {
+    position: fixed;
+  }
+  .relative {
+    position: relative;
+  }
   .flex {
     display: flex;
   }
+  .size-48 {
+    width: calc(var(--spacing) * 48);
+    height: calc(var(--spacing) * 48);
+  }
+  .size-64 {
+    width: calc(var(--spacing) * 64);
+    height: calc(var(--spacing) * 64);
+  }
+  .size-96 {
+    width: calc(var(--spacing) * 96);
+    height: calc(var(--spacing) * 96);
+  }
   .min-h-screen {
     min-height: 100vh;
+  }
+  .w-2xl {
+    width: var(--container-2xl);
+  }
+  .w-xl {
+    width: var(--container-xl);
   }
   .flex-col {
     flex-direction: column;
   }
   .flex-row {
     flex-direction: row;
+  }
+  .place-content-center {
+    place-content: center;
+  }
+  .content-center {
+    align-content: center;
   }
   .justify-center {
     justify-content: center;
